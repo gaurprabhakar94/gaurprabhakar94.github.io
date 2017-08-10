@@ -1,10 +1,9 @@
 ## Welcome to Data Science Portfolio of Prabhakar Gaur
 
-This portfolio is a compilation of notebooks which I created for data analysis or for exploration of machine learning algorithms. A separate category is for separate projects.
+This portfolio is a compilation of the codes which I created for data analysis or for exploration of machine learning algorithms. A separate category is for separate projects.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-## Good Life Inc [Click here](https://github.com/gaurprabhakar94/Good-Life-Inc)
+## Good Life Inc 
+[Good Life Inc](https://github.com/gaurprabhakar94/Good-Life-Inc)
 
 About: With this project, the aim is to fill a crucial gap in currently existing quantified self-measurement devices: the lack of predictive systems which provide useful insights, over and above merely displaying the data collected. This system here is also highly comprehensive, and due to the sheer range of data it collects, can allow for correlations to be drawn from all kinds of factors to an individual’s stress levels, while initially starting from heart rate, and improving over time.
 1. The arduino code compiles on the hardware based system to run the sensors.
@@ -16,6 +15,7 @@ About: With this project, the aim is to fill a crucial gap in currently existing
 In addition to the two uploaded codes, there is an android application as well that was developed for the sole purpose of retrieving the stored data from ThingSpeak Channel and providing easy access of data and analysis on a mobile platform.
 
 ## YouBot
+[YouBot] ()
 
 About: Generates sentences based on any particular user’s style of talking. Uses the concept of Markov chains that are used here randomly generate (somewhat) realistic sentences, using words from a source text. Words are joined together in sequence, with each new word being selected based on how often it follows the previous word in the source document. The Text Generator is capable of generating sentences the way a person talks on messaging services like WhatsApp. Also Developed a preprocessing chat cleaning module in R to extract meaningful insights from the dataset.
 
@@ -47,7 +47,7 @@ Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. Ma
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
+
 Syntax highlighted code block
 
 # Header 1
@@ -63,7 +63,7 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
-```
+
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
