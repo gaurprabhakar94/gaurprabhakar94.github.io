@@ -27,7 +27,7 @@ About: Categorizes news into subcategories of business-technology, entertainment
 
 ## [Call Records Mapper](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py)
 
-About: Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. By making use of de-anonmized CDR data it finds the predictable manners of users moving from home to work with a few errands in between and by running a [K-Means model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py) on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a [weekend](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment3.py)  or a [weekday](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py.
+About: Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. By making use of de-anonmized CDR data it finds the predictable manners of users moving from home to work with a few errands in between and by running a [K-Means model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py) on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a [weekend](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment3.py)  or a [weekday(https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py.
 
 ## [Audio Recovery](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment10.py)
 
@@ -41,11 +41,11 @@ About: Maps possible places of crimes in the city of Chicago by using the City o
 
 About: Converts a 3D mesh to 2D in an optimized way. The mesh, a real life scanned armadillo sculpture, is a very dense 3D mesh consisting of 172974 vertices. The aim was to convert the 3D binary mesh into a Pandas data frame and reduce the dimensionality from three to two using PCA and RandomizedPCA to cast a shadow of the data onto its two most important principal components. Then, finally render the resulting [2D scatter plot](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment1.py).
 
-## [Face Direction Tracker](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment4.py
-) 
+## [Face Direction Tracker](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment4.py) 
 
-About: Identifies the direction the face is looking at. The dataset used is of face image samples with coded brightness values of 64x64-pixel heads rendered facing various directions and lighting from many angles. On applying both PCA and Isomap separately to these raw images, we derived 2D principal components and a 2D embedding of the data's intrinsic geometric structure. They are then projected both onto a [2D and 3D scatter plot](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment4.py), with a few superimposed face images on the associated samples.
- Also applied PCA and Isomap to these raw images to train a [KNeighborsClassifier model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment6.py) to identify what direction a face is pointing towards: either up, down, left, or right.
+About: Identifies the direction the face is looking at. The dataset used is of face image samples with coded brightness values of 64x64-pixel heads rendered facing various directions and lighting from many angles.
+1. On applying both PCA and Isomap separately to these raw images, we derived 2D principal components and a 2D embedding of the data's intrinsic geometric structure. They are then projected both onto a [2D and 3D scatter plot](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment4.py), with a few superimposed face images on the associated samples.
+2. Also on applying PCA and Isomap to these raw images, we tried to train a [KNeighborsClassifier model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment6.py) to identify what direction a face is pointing towards: either up, down, left, or right.
 
 ## [Non Linear Movement Tracker](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment5.py)
 
