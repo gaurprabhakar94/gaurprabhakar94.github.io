@@ -3,7 +3,7 @@
 
 This portfolio is a compilation of the codes which I created for data analysis or for the exploration of machine learning algorithms. A separate category is for separate projects.
 
-## [Titanic: Machine Learning from Disaster]()
+## [Titanic: Machine Learning from Disaster](https://github.com/gaurprabhakar94/Titanic-Survival-Prediction/blob/master/Titanic%20Survival%20Prediction.py)
 
 About: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem which is based on information about Titanic passengers. Aim is to predict whether they survived or not. General description and data are available on [Kaggle](https://www.kaggle.com/c/titanic). 
 
