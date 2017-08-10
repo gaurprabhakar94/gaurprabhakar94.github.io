@@ -2,6 +2,10 @@
 
 This portfolio is a compilation of the codes which I created for data analysis or for the exploration of machine learning algorithms. A separate category is for separate projects.
 
+## [Titanic: Machine Learning from Disaster]()
+
+About: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem which is based on information about Titanic passengers. Aim is to predict whether they survived or not. General description and data are available on [Kaggle](https://www.kaggle.com/c/titanic). 
+
 ## [Good Life Inc](https://github.com/gaurprabhakar94/Good-Life-Inc)
 
 About: With this project, the aim is to fill a crucial gap in currently existing quantified self-measurement devices: the lack of predictive systems which provide useful insights, over and above merely displaying the data collected. This system here is also highly comprehensive, and due to the sheer range of data it collects, can allow for correlations to be drawn from all kinds of factors to an individual’s stress levels, while initially starting from heart rate, and improving over time.
@@ -23,7 +27,7 @@ About: Categorizes news into subcategories of business-technology, entertainment
 
 ## [Call Records Mapper](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py)
 
-About: Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. By making use of de-anonmized CDR data it finds the predictable manners of users moving from home to work with a few errands in between and by running a [K-Means model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py) on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a [weekend](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment3.py)  or a [weekday(https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py.
+About: Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. By making use of de-anonmized CDR data it finds the predictable manners of users moving from home to work with a few errands in between and by running a [K-Means model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py) on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a [weekend](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment3.py)  or a [weekday](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py.
 
 ## [Audio Recovery](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment10.py)
 
@@ -35,48 +39,39 @@ About: Maps possible places of crimes in the city of Chicago by using the City o
 
 ## [Flat Armadillo](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment1.py)
 
-About: Converts a 3D mesh to 2D in an optimized way. The mesh, a real life scanned armadillo sculpture, is a very dense 3D mesh consisting of 172974 vertices. The aim was to convert the 3D binary mesh into a Pandas data frame and reduce the dimensionality from three to two using PCA and RandomizedPCA to cast a shadow of the data onto its two most important principal components. Then, finally render the resulting 2D scatter plot.
+About: Converts a 3D mesh to 2D in an optimized way. The mesh, a real life scanned armadillo sculpture, is a very dense 3D mesh consisting of 172974 vertices. The aim was to convert the 3D binary mesh into a Pandas data frame and reduce the dimensionality from three to two using PCA and RandomizedPCA to cast a shadow of the data onto its two most important principal components. Then, finally render the resulting [2D scatter plot](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment1.py).
 
-## Face Direction Tracker – (identifies the direction the face is looking at)
-https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment4.py
-https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment6.py
- Explored the dataset of face image samples with coded brightness values of 64x64-pixel heads that were rendered facing various directions and lighting from many angles.
- Applied both PCA and Isomap to these raw images to derive 2D principal components and a 2D embedding of the data's intrinsic geometric structure. Projected both onto a 2D and 3D scatter plot, with a few superimposed face images on the associated samples.
- Also applied PCA and Isomap to these raw images to train a KNeighborsClassifier model to identify what direction a face is pointing towards: either up, down, left, or right.
+## [Face Direction Tracker](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment4.py
+) 
 
-## Non Linear Movement Tracker – (identifies viewing angle, illumination angle, and illumination color of objects)
-https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment5.py
- Worked on a carefully constructed huge collection of small objects that were photographed in a controlled environment, by systematically varying the viewing angle, illumination angle, and illumination color for each object separately.
- Ran and tested Isomap on this carefully constructed dataset for manifold extraction and visually confirming its effectiveness.
+About: Identifies the direction the face is looking at. The dataset used is of face image samples with coded brightness values of 64x64-pixel heads rendered facing various directions and lighting from many angles. On applying both PCA and Isomap separately to these raw images, we derived 2D principal components and a 2D embedding of the data's intrinsic geometric structure. They are then projected both onto a [2D and 3D scatter plot](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment4.py), with a few superimposed face images on the associated samples.
+ Also applied PCA and Isomap to these raw images to train a [KNeighborsClassifier model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment6.py) to identify what direction a face is pointing towards: either up, down, left, or right.
 
-## Accelerometer Movement Identifier – (identifies a user’s body posture and movement)
-https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment6.py
- Worked with Human activity monitoring data captured from people wearing accelerometers mounted on their waist, left thigh, right arm and right ankle.
- Trained a Random Forest model to classify body postures and movements like sitting, sitting down, standing, standing up, walking etc.
+## [Non Linear Movement Tracker](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment5.py)
 
-## Wheat plots Enclave – (exploring a dataset with various visualization techniques in python)
+About: Identifies the viewing angle, illumination angle, and illumination color of objects. A carefully constructed huge collection of small objects, photographed in a controlled environment, by systematically varying the viewing angle, illumination angle, and illumination color for each object separately, is used. This data is transformed using [Isomap](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment5.py) for manifold extraction and visually confirming its effectiveness.
 
- Explored the wheat-seeds dataset, generated by recording X-Ray measurements of various wheat kernels. Loaded it in a data-frame, created slices of it and plotted histograms, [2D scatter plots](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment2.py), [3D scatter plots](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment3.py), a [parallel coordinates chart](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment4.py) and an [Andrew's Curve chart](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment5.py)
- Computed the [correlation matrix](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment6.py) of the data frame and drew its graph using imshow.
- Also benchmarked how long it takes to train and predict with [SVC relative to K-Neighbors](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment1.py) and then compared the decision boundary plot produced by the two
+## [Accelerometer Movement Identifier](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment6.py)
 
-## Digit Recognizer – (recognizes hand written digits)
- Using the Optical Recognition of Handwritten Digits dataset, provided by UCI's Machine Learning Repository, built a handwritten digit recognition model in python.
- Trained a Support Vector Classifier using machine learning, and checked classification accuracy.
+About: Uses the Human activity monitoring data captured from people wearing accelerometers mounted on their waist, left thigh, right arm and right ankle and identifies a user’s body posture and movement. By training a [Random Forest model](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment6.py) we are able to classify body postures and movements like sitting, sitting down, standing, standing up, walking etc.
 
-## Healthcare Analytics
+## [Wheat plots Enclave](https://github.com/gaurprabhakar94/Dat210x/tree/master/3_Data%20Visualization)
+
+About: Explores a dataset with various visualization techniques in python. Makes use of the wheat-seeds dataset, generated by recording X-Ray measurements of various wheat kernels.
+1. The data is loaded in a data-frame to create slices and then plot histograms, [2D scatter plots](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment2.py), [3D scatter plots](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment3.py), a [parallel coordinates chart](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment4.py) and an [Andrew's Curve chart](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment5.py).
+2. A [correlation matrix](https://github.com/gaurprabhakar94/Dat210x/blob/master/3_Data%20Visualization/assignment6.py) of the data frame is also computed and drew its graph using imshow.
+3. Training and predicting times are then benchmarked with [SVC relative to K-Neighbors](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment1.py) and are then compared to the decision boundary plots produced by the two
+
+## [Digit Recognizer](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment2.py)
+
+About: Recognizes hand written digits by training a Support Vector Classifier using machine learning. The handwritten digit recognition model is then checked for its classification accuracy.
+
+## [Healthcare Analytics](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment3.py)
 
 About: Analyzes different datasets – Chronic Kidney diseases, Parkinson, Breast cancer to yield insights that lead to early detection of such diseases
-1. Uses the subset of UCI's Chronic Kidney Disease data set, a collection of samples taken from patients in India over a two month period, some of whom were in the early stages of the disease. Cleaned the data, filtered it, performed PCA and then visualized the results on a scatter plot. Further to this, worked with the nominal features of the dataset by exploding them and later visualizing the parameters on another scatter plot.
-2. Experimented with the Breast Cancer Wisconsin Original dataset. Loaded the data, cleaned it up and performed feature scaling since the features used different units. Then implemented PCA and Isomap to test the performance of both models and to reduce the dimensionality of the dataset down to two variables. Finally, trained a KNeighborsClassifier model on the 2D projected training dataset, scored it and plotted a decision boundary for visual confirmation.
-3. Applied SVC to the Parkinson's Data Set, provided by UCI's Machine Learning Repository. Then tried to differentiate between people who have Parkinson's and who don't, and then tried to fine-tune the parameters in an attempt to maximize the accuracy of the testing set.
 
+1. Uses the subset of UCI's Chronic Kidney Disease data set, a collection of samples taken from patients in India over a two month period, some of whom were in the early stages of the disease. Operations like cleaning, filtering and [feature scaling](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment2_helper.py) are performed followed by [PCA](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment2%20True.py) and then the results are visualized on a [scatter plot](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment2%20False.py). Further to this, worked with the [nominal features](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment3_part1.py) of the dataset by exploding them and later visualizing the parameters on [another scatter plot](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment3_part2.py).
 
+2. Uses the Breast Cancer Wisconsin Original dataset. Operations like loading the data, cleaning it up and performing feature scaling since the features used different units are performed. Further, the data is transformed in both PCA and Isomap to test the performance of both models and to reduce the dimensionality of the dataset down to two variables. Finally, trained a [KNeighborsClassifier model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment7.py) on the 2D projected training dataset, scored it and plotted a decision boundary for visual confirmation.
 
-Classification problems.
-
-Titanic: Machine Learning from Disaster
-
-Github nbviewer
-
-Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem: based on information about Titanic passengers we predict whether they survived or not. General description and data are available on Kaggle. Titanic dataset provides interesting opportunities for feature engineering.
+3. Applies [SVC](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment3.py) to the Parkinson's Data Set, provided by UCI's Machine Learning Repository. Then tries to differentiate between people who have Parkinson's and who don't, and then fine-tunes the parameters in an attempt to maximize the accuracy of the testing set and reducing the false positive rate.
