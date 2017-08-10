@@ -15,31 +15,29 @@ About: With this project, the aim is to fill a crucial gap in currently existing
 In addition to the two uploaded codes, there is an android application as well that was developed for the sole purpose of retrieving the stored data from ThingSpeak Channel and providing easy access of data and analysis on a mobile platform.
 
 ## YouBot
-[YouBot] (https://github.com/gaurprabhakar94/YouBot)
 
-About: Generates sentences based on any particular user’s style of talking. Uses the concept of Markov chains that are used here to randomly generate (somewhat) realistic sentences, using words from a source text. Words are joined together in sequence, with each new word being selected based on how often it follows the previous word in the source document. The [Text Generator](https://github.com/gaurprabhakar94/YouBot/blob/master/Markov%20Text%20Generator/markov.py) is capable of generating sentences the way a person talks on messaging services like WhatsApp. It also has a preprocessing [chat cleaning module](https://github.com/gaurprabhakar94/YouBot/blob/master/Cleaning%20Whatsapp%20Chat/cleaning_chat.R) in R to extract meaningful insights from the dataset.
+[About](https://github.com/gaurprabhakar94/YouBot): Generates sentences based on any particular user’s style of talking. Uses the concept of Markov chains that are used here to randomly generate (somewhat) realistic sentences, using words from a source text. Words are joined together in sequence, with each new word being selected based on how often it follows the previous word in the source document. The [Text Generator](https://github.com/gaurprabhakar94/YouBot/blob/master/Markov%20Text%20Generator/markov.py) is capable of generating sentences the way a person talks on messaging services like WhatsApp. It also has a preprocessing [chat cleaning module](https://github.com/gaurprabhakar94/YouBot/blob/master/Cleaning%20Whatsapp%20Chat/cleaning_chat.R) in R to extract meaningful insights from the dataset.
 
 ## BBC News Sub-categorizing
 
-About: Categorizes news into subcategories of business-technology, entertainment-sports etc. based on their similarity index. The [preprocessing module](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization) includes a series of operations varying from [text mining](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/1%20Mining/Text_Mining.R), [clustering](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/2%20Clustering/Cluster%20Analysis.R), [topic modelling](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/3%20Topic%20Modelling/TopicModelling.R), [plotting similarity graphs](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/4%20Network%20Graphs/NetworkGraph.R) (using [gephi](https://gephi.org/)) followed by the analysis of the graph network.
+[About](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization): Categorizes news into subcategories of business-technology, entertainment-sports etc. based on their similarity index. The [preprocessing module](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization) includes a series of operations varying from [text mining](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/1%20Mining/Text_Mining.R), [clustering](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/2%20Clustering/Cluster%20Analysis.R), [topic modelling](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/3%20Topic%20Modelling/TopicModelling.R), [plotting similarity graphs](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/4%20Network%20Graphs/NetworkGraph.R) (using [gephi](https://gephi.org/)) followed by the analysis of the graph network.
 
 ## Call Records Mapper 
-(https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py)
 
-About: Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. Makes use of de-anonmized CDR data to find the predictable manners of users moving from home to work with a few errands in between and ran a K-Means model on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a weekend or a weekday.
+[About](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py): Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. Makes use of de-anonmized CDR data to find the predictable manners of users moving from home to work with a few errands in between and ran a [K-Means model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py) on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a weekend or a weekday.
 
 ## Audio Recovery
-https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment10.py
-About: Extrapolates deleted portion of audio files. It works with uncompressed audio files and uses a Linear Regression Model to recover completely deleted portion of audio files.
 
+[About](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment10.py): Extrapolates deleted portion of audio files. It works with uncompressed audio files and uses a [Linear Regression Model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment10.py) to recover completely deleted portion of audio files.
 
+## Mapping Crime Areas
 
-## Mapping Crime Areas – (maps possible places of crimes in the city of Chicago)
-https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment1.py
- Explored the City of Chicago's Crime dataset, which is part of their Open Data initiative. Targeted Gambling as the Crime Activity and ran a K-means clustering model and isolated the possible places for police officers to investigate.
+[About](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment1.py): Maps possible places of crimes in the city of Chicago by using the City of Chicago's Crime dataset. The crime targeted is gambling and after running a [K-means clustering model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment1.py) and we could isolate the possible places for police officers to investigate.
 
-## Flat Armadillo – (converts a 3D mesh to 2D in the most optimized way)
-https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment1.py
+## Flat Armadillo
+
+[About](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment1.py):converts a 3D mesh to 2D in the most optimized way
+
  Experimented with a real life scanned armadillo sculpture, a very dense 3D mesh consisting of 172974 vertices. Converted the 3D binary mesh into a Pandas data frame.
  Reduced the dimensionality from three to two using PCA and RandomizedPCA to cast a shadow of the data onto its two most important principal components. Then rendered the resulting 2D scatter plot.
 
@@ -70,15 +68,14 @@ https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assi
  Using the Optical Recognition of Handwritten Digits dataset, provided by UCI's Machine Learning Repository, built a handwritten digit recognition model in python.
  Trained a Support Vector Classifier using machine learning, and checked classification accuracy.
 
-## Healthcare Analytics – (analyzes different datasets – Chronic Kidney diseases, Parkinson, Breast cancer to yield insights that lead to early detection of such diseases)
- Experimented with a subset of UCI's Chronic Kidney Disease data set, a collection of samples taken from patients in India over a two month period, some of whom were in the early stages of the disease. Cleaned the data, filtered it, performed PCA and then visualized the results on a scatter plot. Further to this, worked with the nominal features of the dataset by exploding them and later visualizing the parameters on another scatter plot.
- Experimented with the Breast Cancer Wisconsin Original dataset. Loaded the data, cleaned it up and performed feature scaling since the features used different units. Then implemented PCA and Isomap to test the performance of both models and to reduce the dimensionality of the dataset down to two variables. Finally, trained a KNeighborsClassifier model on the 2D projected training dataset, scored it and plotted a decision boundary for visual confirmation.
- Applied SVC to the Parkinson's Data Set, provided by UCI's Machine Learning Repository. Then tried to differentiate between people who have Parkinson's and who don't, and then tried to fine-tune the parameters in an attempt to maximize the accuracy of the testing set.
+## Healthcare Analytics
+
+About: Analyzes different datasets – Chronic Kidney diseases, Parkinson, Breast cancer to yield insights that lead to early detection of such diseases
+1. Uses the subset of UCI's Chronic Kidney Disease data set, a collection of samples taken from patients in India over a two month period, some of whom were in the early stages of the disease. Cleaned the data, filtered it, performed PCA and then visualized the results on a scatter plot. Further to this, worked with the nominal features of the dataset by exploding them and later visualizing the parameters on another scatter plot.
+2. Experimented with the Breast Cancer Wisconsin Original dataset. Loaded the data, cleaned it up and performed feature scaling since the features used different units. Then implemented PCA and Isomap to test the performance of both models and to reduce the dimensionality of the dataset down to two variables. Finally, trained a KNeighborsClassifier model on the 2D projected training dataset, scored it and plotted a decision boundary for visual confirmation.
+3. Applied SVC to the Parkinson's Data Set, provided by UCI's Machine Learning Repository. Then tried to differentiate between people who have Parkinson's and who don't, and then tried to fine-tune the parameters in an attempt to maximize the accuracy of the testing set.
 
 
-Handwritten digit recognition
-
-This is my own project using image recognition methods in practice. This is a site (also works on mobile) where user can draw a digit, and machine learning models (FNN and CNN) will try to recognize it. After than models can use the drawn digit for training to improve their accuracy. Live version is here. The code can be found here.
 
 Classification problems.
 
@@ -87,37 +84,3 @@ Titanic: Machine Learning from Disaster
 Github nbviewer
 
 Titanic: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem: based on information about Titanic passengers we predict whether they survived or not. General description and data are available on Kaggle. Titanic dataset provides interesting opportunities for feature engineering.
-
-
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gaurprabhakar94/gaurprabhakar94.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
