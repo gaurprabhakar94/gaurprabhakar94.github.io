@@ -6,22 +6,22 @@ This portfolio is a compilation of the codes which I created for data analysis o
 [Good Life Inc](https://github.com/gaurprabhakar94/Good-Life-Inc)
 
 About: With this project, the aim is to fill a crucial gap in currently existing quantified self-measurement devices: the lack of predictive systems which provide useful insights, over and above merely displaying the data collected. This system here is also highly comprehensive, and due to the sheer range of data it collects, can allow for correlations to be drawn from all kinds of factors to an individual’s stress levels, while initially starting from heart rate, and improving over time.
-1. The arduino code compiles on the hardware based system to run the sensors.
-2. Readings are taken from the sensor and uploaded automatically in ThinkSpeak 
+1. The [arduino code](https://github.com/gaurprabhakar94/Good-Life-Inc/blob/master/Arduino%20Code/Iot_Device_Code.ina/Iot_Device_Code.ina.ino) compiles on the hardware based system to run the sensors.
+2. Readings are taken from the sensor and uploaded automatically in [ThinkSpeak](https://thingspeak.com/) 
 3. The data is retrieved from think speak in a CSV file 
-4. Analytics is performed in the data obtained using a decision tree classifier.
+4. Analytics is performed in the data obtained using a [decision tree classifier](https://github.com/gaurprabhakar94/Good-Life-Inc/blob/master/Python%20Code/Stressed%20Analysis.py) in python.
 5. The analytics system is connected to the IOT based hardware module using an Ethernet module.
 
 In addition to the two uploaded codes, there is an android application as well that was developed for the sole purpose of retrieving the stored data from ThingSpeak Channel and providing easy access of data and analysis on a mobile platform.
 
 ## YouBot
-[YouBot] ()
+[YouBot] (https://github.com/gaurprabhakar94/YouBot)
 
-About: Generates sentences based on any particular user’s style of talking. Uses the concept of Markov chains that are used here to randomly generate (somewhat) realistic sentences, using words from a source text. Words are joined together in sequence, with each new word being selected based on how often it follows the previous word in the source document. The Text Generator is capable of generating sentences the way a person talks on messaging services like WhatsApp. It also has a preprocessing chat cleaning module in R to extract meaningful insights from the dataset.
+About: Generates sentences based on any particular user’s style of talking. Uses the concept of Markov chains that are used here to randomly generate (somewhat) realistic sentences, using words from a source text. Words are joined together in sequence, with each new word being selected based on how often it follows the previous word in the source document. The [Text Generator](https://github.com/gaurprabhakar94/YouBot/blob/master/Markov%20Text%20Generator/markov.py) is capable of generating sentences the way a person talks on messaging services like WhatsApp. It also has a preprocessing [chat cleaning module](https://github.com/gaurprabhakar94/YouBot/blob/master/Cleaning%20Whatsapp%20Chat/cleaning_chat.R) in R to extract meaningful insights from the dataset.
 
 ## BBC News Sub-categorizing
 
-About: Categorizes news into subcategories of business-technology, entertainment-sports etc. based on their similarity index. The preprocessing module includes a series of operations varying from text mining, clustering, topic modelling, plotting similarity graphs (using gephi) followed by the analysis of the graph network.
+About: Categorizes news into subcategories of business-technology, entertainment-sports etc. based on their similarity index. The [preprocessing module](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization) includes a series of operations varying from [text mining](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/1%20Mining/Text_Mining.R), [clustering](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/2%20Clustering/Cluster%20Analysis.R), [topic modelling](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/3%20Topic%20Modelling/TopicModelling.R), [plotting similarity graphs](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/4%20Network%20Graphs/NetworkGraph.R) (using [gephi](https://gephi.org/)) followed by the analysis of the graph network.
 
 ## Call Records Mapper 
 (https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py)
