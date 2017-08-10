@@ -1,4 +1,5 @@
-## Data Science Portfolio of [Prabhakar Gaur](https://github.com/gaurprabhakar94)
+## Data Science Portfolio of Prabhakar Gaur
+<sub> [Click here](https://github.com/gaurprabhakar94) for github repositories</sub>
 
 This portfolio is a compilation of the codes which I created for data analysis or for the exploration of machine learning algorithms. A separate category is for separate projects.
 
