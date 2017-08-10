@@ -4,7 +4,7 @@ This portfolio is a compilation of notebooks which I created for data analysis o
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-## Good Life Inc [ ](https://github.com/gaurprabhakar94/Good-Life-Inc)
+## Good Life Inc [Click here](https://github.com/gaurprabhakar94/Good-Life-Inc)
 
 About: With this project, the aim is to fill a crucial gap in currently existing quantified self-measurement devices: the lack of predictive systems which provide useful insights, over and above merely displaying the data collected. This system here is also highly comprehensive, and due to the sheer range of data it collects, can allow for correlations to be drawn from all kinds of factors to an individual’s stress levels, while initially starting from heart rate, and improving over time.
 1. The arduino code compiles on the hardware based system to run the sensors.
