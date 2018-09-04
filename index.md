@@ -3,9 +3,9 @@
 
 This portfolio is a compilation of the codes which I created for data analysis or for the exploration of machine learning algorithms. A separate category is for separate projects.
 
-## [Traffic Signs Classifier](https://github.com/gaurprabhakar94/Tensorflow)
+## [Tensorflow: Traffic Signs Classifier](https://github.com/gaurprabhakar94/Tensorflow)
 
-About: With this project, I worked with Belgian traffic signs data and explored it with simple statistics and plotting. The data was then manipulated (Rescaling, grayscale etc operations were performed) in such a way that it could then be fed to my model. Then I finally started building the neural network model layer per layer; After setting up the architecture, I train the model and then evaluate it by feeding test data to it.
+About: With this project, I worked with Belgian traffic signs data and explored it with simple statistics and plotting. The data was then manipulated (Rescaling, grayscale etc operations were performed) in such a way that it could then be fed to my tensorflow model. Then I finally started building the neural network model layer per layer; After setting up the architecture, I train the model and then evaluate it by feeding test data to it.
 
 ## [Titanic: Machine Learning from Disaster](https://github.com/gaurprabhakar94/Titanic-Survival-Prediction/blob/master/Titanic%20Survival%20Prediction.py)
 
