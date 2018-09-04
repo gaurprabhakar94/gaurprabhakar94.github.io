@@ -3,6 +3,13 @@
 
 This portfolio is a compilation of the codes which I created for data analysis or for the exploration of machine learning algorithms. A separate category is for separate projects.
 
+## [Traffic Signs Classifier](https://github.com/gaurprabhakar94/Tensorflow)
+
+About: With this project, I worked with Belgian traffic signs data and explored it with simple statistics and plotting. The data was then manipulated (Rescaling, grayscale etc operations were performed) in such a way that it could then be fed to my model. Then I finally started building the neural network model layer per layer; After setting up the architecture, I train the model and then evaluate it by feeding test data to it.
+
+With this project, I explored a solution of classifying traffic signs Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem which is based on information about Titanic passengers. Aim is to predict whether they survived or not. General description and data are available on [Kaggle](https://www.kaggle.com/c/titanic). 
+
+
 ## [Titanic: Machine Learning from Disaster](https://github.com/gaurprabhakar94/Titanic-Survival-Prediction/blob/master/Titanic%20Survival%20Prediction.py)
 
 About: Machine Learning from Disaster is a knowledge competition on Kaggle. Many people started practicing in machine learning with this competition, so did I. This is a binary classification problem which is based on information about Titanic passengers. Aim is to predict whether they survived or not. General description and data are available on [Kaggle](https://www.kaggle.com/c/titanic). 
