@@ -30,17 +30,17 @@ About: Generates sentences based on any particular user’s style of talking. Us
 
 About: Categorizes news into subcategories of business-technology, entertainment-sports etc. based on their similarity index. The [preprocessing module](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization) includes a series of operations varying from [text mining](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/1%20Mining/Text_Mining.R), [clustering](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/2%20Clustering/Cluster%20Analysis.R), [topic modelling](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/3%20Topic%20Modelling/TopicModelling.R), [plotting similarity graphs](https://github.com/gaurprabhakar94/BBC-News-Sub-categorization/blob/master/4%20Network%20Graphs/NetworkGraph.R) (using [gephi](https://gephi.org/)) followed by the analysis of the graph network.
 
-## [Call Records Mapper](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py)
+## [Call Records Mapper](https://github.com/gaurprabhakar94/MappingAreas)
 
-About: Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. By making use of de-anonmized CDR data it finds the predictable manners of users moving from home to work with a few errands in between and by running a [K-Means model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py) on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a [weekend](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment3.py)  or a [weekday](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment2.py).
+About: Identifies areas of interests of the users based on their phone usage, day of the week and time of the day on which they are using it. By making use of de-anonmized CDR data it finds the predictable manners of users moving from home to work with a few errands in between and by running a [K-Means model](https://github.com/gaurprabhakar94/MappingAreas) on it to isolate the geolocations where a user spends most of his/her time. Further it categorizes these trends based on a [weekend](https://github.com/gaurprabhakar94/MappingAreas/blob/master/MappingCallRecordsWeekends.ipynb)  or a [weekday](https://github.com/gaurprabhakar94/MappingAreas/blob/master/MappingCallRecordsWeekdays.ipynb).
 
 ## [Audio Recovery](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment10.py)
 
 About: Extrapolates deleted portion of audio files. By working with uncompressed audio files and using a [Linear Regression Model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment10.py) we can recover a completely deleted portion of audio files.
 
-## [Mapping Crime Areas](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment1.py)
+## [Mapping Crime Areas](https://github.com/gaurprabhakar94/MappingAreas)
 
-About: Maps possible places of crimes in the city of Chicago by using the City of Chicago's Crime dataset. The crime targeted is gambling. On running a [K-means clustering model](https://github.com/gaurprabhakar94/Dat210x/blob/master/5_Data%20Modelling/assignment1.py), we could isolate the possible places for police officers to investigate.
+About: Maps possible places of crimes in the city of Chicago by using the City of Chicago's Crime dataset. The crime targeted is gambling. On running a [K-means clustering model](https://github.com/gaurprabhakar94/MappingAreas/blob/master/MappingCrimeAreas.ipynb), we could isolate the possible places for police officers to investigate.
 
 ## [Flat Armadillo](https://github.com/gaurprabhakar94/Dat210x/blob/master/4_Data%20Transformation/assignment1.py)
 
