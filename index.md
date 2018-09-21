@@ -21,13 +21,13 @@ About: Explores a dataset with various visualization techniques in python. Makes
 
 2. We also perform high dimensional classification and benchmark training and predicting times using both [SVC and K-neighbors](https://github.com/gaurprabhakar94/WheatPlotsEnclave/blob/master/SVC_KNeighbors_Training_Scoring.ipynb), that gives a 2D matrix of feature vs feature plots against one another. With this we try understand how each pair of features stack against the other. We also compare the decision boundary plots produced by the two.
 
-## [Digit Recognizer](http://localhost:8888/tree/Desktop/Github%20Repos/DigitRecognition)
+## [Digit Recognizer](https://github.com/gaurprabhakar94/DigitRecognition)
 
 About: Classifies hand written digits using two methods:
 
-1. By training a [Classification model in Tensorflow](https://github.com/gaurprabhakar94/DigitRecognition/blob/master/Digit%20Recognition%20with%20Seismic%20map.ipynb) using trained on the MNIST dataset. The model is then fine tuned to give the best accuracy and the lowest loss. Seismic maps were also used to visualize weights of the trained model.
+1. By training a [Classification model in Tensorflow](https://github.com/gaurprabhakar94/DigitRecognition/blob/master/Digit%20Recognition%20with%20Seismic%20map.ipynb) using the MNIST dataset. The model is then fine tuned to give the best accuracy and the lowest loss. Seismic maps were also used to visualize weights of the trained model.
 
-2. By training a [Support Vector Classifier](https://github.com/gaurprabhakar94/Dat210x/blob/master/6_Data%20Modelling_2/assignment2.py) on UCI's Optical Recognition of Handwritten Digits Data Set. The handwritten digit recognition model is then checked for its classification accuracy.
+2. By training a [Support Vector Classifier](https://github.com/gaurprabhakar94/DigitRecognition/blob/master/Digit_Recognition_SVC.ipynb) on UCI's Optical Recognition of Handwritten Digits Data Set. The model is then fine tuned to beat the advertised United States Postal Service stats.
 
 ## [Tensorflow: Traffic Signs Classifier](https://github.com/gaurprabhakar94/Tensorflow)
 
